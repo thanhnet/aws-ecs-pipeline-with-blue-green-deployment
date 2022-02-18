@@ -19,13 +19,13 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from blue green deployment!';
+  const msg = 'Hello from blue green deployment! Thanh';
   res.send(getPage(msg));
 });
 
 app.get('/test', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from /test Node!';
+  const msg = 'Hello from /test Node! Thanh';
   res.send(getPage(msg));
 });
 
