@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   variables:
-    AWS_REGION: us-east-1 # checkfor specific region
-    AWS_ACCOUNT_ID: 708995052028
+    AWS_REGION: ap-southeast-1 # checkfor specific region
+    AWS_ACCOUNT_ID: 258159170962
     IMAGE_NAME: aws-pipeline-with-ecs-blue-green-deployment-image
     
 phases:
