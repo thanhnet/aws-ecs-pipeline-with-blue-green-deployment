@@ -4,7 +4,7 @@ env:
   variables:
     AWS_REGION: ap-southeast-1 # checkfor specific region
     AWS_ACCOUNT_ID: 258159170962
-    IMAGE_NAME: aws-pipeline-with-ecs-blue-green-deployment-image
+    IMAGE_NAME: demo-farget
     
 phases:
   install:
